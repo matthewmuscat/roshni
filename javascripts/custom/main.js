@@ -1183,7 +1183,7 @@ jQuery(window).load(function(){
             // This is where you would paste any style found on [Snazzy Maps][1].
             // copy the Styles from Snazzy maps,  and paste that style info after the word "styles:"
 
-            styles: [{stylers:[{hue:'#000000'},{saturation:-100}]},{featureType:'water',elementType:'geometry',stylers:[{lightness:50},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
+            styles: [{stylers:[{hue:'#000000'},{saturation:0}]},{featureType:'water',elementType:'geometry',stylers:[{lightness:50},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
         };
     
         var mapElement = document.getElementById('map');
