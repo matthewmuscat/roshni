@@ -2,6 +2,9 @@
 /* YOUR CUSTOM FONTS CAN BE DEFINED HERE VIA CSS3 FONT-FACE TECHNOLOGY*/
 /* More info : http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/ */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+@font-face { font-family: CenturyGothic; src: url(../fonts/font_icons/CenturyGothic.ttf) format('truetype'); } 
+@font-face { font-family: GeoSansLight; src: url(../fonts/font_icons/GeosansLight.ttf) format('truetype'); } 
+
 .font1 {
   font-family: 'Fjalla One', sans-serif;
 }
@@ -9,11 +12,11 @@
   font-family: 'Courgette', cursive !important;
 }
 .font3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: CenturyGothic;
 }
 
 
 body,
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: CenturyGothic;
 }
