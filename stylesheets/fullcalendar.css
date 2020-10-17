@@ -4,6 +4,8 @@
  * (c) 2015 Adam Shaw
  */
 
+ @font-face { font-family: CenturyGothic; src: url(../fonts/font_icons/CenturyGothic.ttf); } 
+ @font-face { font-family: GeoSansLight; src: url(../fonts/font_icons/GeosansLight.ttf); } 
 
 .fc {
 	direction: ltr;
@@ -42,7 +44,7 @@ body .fc { /* extra precedence to overcome jqui */
 }
 
 .fc-unthemed .fc-popover .fc-header .fc-close {
-	color: #262626;
+	color: #58595b;
 	  font-weight: bold;
   font-family: impact;
 	position: absolute;
@@ -61,7 +63,7 @@ body .fc { /* extra precedence to overcome jqui */
 }
 
 .fc-highlight { /* when user is selecting cells */
-	background: #c59d5f;
+	background: #ab9370;
 	opacity: .3;
 	filter: alpha(opacity=30); /* for IE */
 }
@@ -213,11 +215,11 @@ NOTE: use percentage font sizes or else old IE chokes
 .fc-state-down,
 .fc-state-active,
 .fc-state-disabled {
-	color: #c59d5f;
+	color: #ab9370;
 }
 
 .fc-state-hover {
-	color: #c59d5f;
+	color: #ab9370;
 	text-decoration: none;
 
 
@@ -615,7 +617,7 @@ be a descendant of the grid when it is being dragged.
 	padding: 5px;
   font-size: 13px;
   font-style: italic;
-  font-family: "Open Sans";
+  font-family: CenturyGothic;
 }
 
 .fc-day-grid-event .fc-time {
@@ -803,8 +805,8 @@ a.fc-more:hover {
 .fc-ltr .fc-basic-view .fc-day-number {
 	text-align: right;
 	font-weight:500;
-	font-family:"Open Sans";
-	color:#262626;
+	font-family: CenturyGothic;
+	color:#58595b;
 	padding-right:10px;
 	background:#F6F6F6;
 	border-bottom:1px solid #ddd;

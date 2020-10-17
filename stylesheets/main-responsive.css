@@ -265,11 +265,11 @@
     }
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title > a,
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title.submenu > a {
-        color: #262626 !important;
+        color: #58595b !important;
     }
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title > a:hover,
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title.submenu > a:hover {
-        color: #262626 !important;
+        color: #58595b !important;
     }
     /* ----------------------------------------------------------------
       Primary Menu
@@ -397,7 +397,7 @@
         margin-top: 0;
         left: 10px;
         z-index: 1;
-        color: #262626;
+        color: #58595b;
         font-size: 2em;
     }
     #main-menu > ul,
@@ -417,7 +417,7 @@
         padding: 0 5px !important;
         border: none !important;
         margin: 0 !important;
-        color: #262626;
+        color: #58595b;
     }
     #main-menu ul li a:hover,
     #main-menu.style-white > div > ul > li > a:hover {
@@ -531,7 +531,7 @@
         margin: 25px 0 0;
     }
     #header .dark #shop_cart > a > i {
-        color: #262626;
+        color: #58595b;
         font-size: 1.5em;
     }
     #shop_cart.shop_cart_open .shop_cart_content {
@@ -544,7 +544,7 @@
     .dark #main-menu:not(.not-dark) ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title:hover > a,
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title > a,
     #main-menu.dark ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title:hover > a {
-        color: #262626 !important;
+        color: #58595b !important;
         background: transparent;
         font-family: 'Fjalla One', sans-serif;
     }
@@ -601,7 +601,7 @@
     }
     .dark #main-menu:not(.not-dark) ul ul a,
     #main-menu.dark ul ul a {
-        color: #262626;
+        color: #58595b;
     }
     .dark #main-menu:not(.not-dark) ul ul li:hover > a,
     #main-menu.dark ul ul li:hover > a {
