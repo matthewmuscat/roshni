@@ -351,7 +351,7 @@
         background-color: transparent !important;
         font-weight: 600;
         padding-left: 5px;
-        color: #c59d5f !important;
+        color: #ab9370 !important;
     }
     #main-menu ul ul a {
         height: 44px !important;
@@ -421,7 +421,7 @@
     }
     #main-menu ul li a:hover,
     #main-menu.style-white > div > ul > li > a:hover {
-        color: #c59d5f;
+        color: #ab9370;
     }
     #header.dark-header #main-menu ul li a {
         color: #ffffff;
