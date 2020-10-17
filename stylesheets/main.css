@@ -5610,6 +5610,10 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
   transition: all 0.8s;
 }
 
+.contact-list-item {
+	padding: 0rem 1rem;
+}
+
 /* portfolio plugin */
 
 .portfolio-detail{
@@ -6057,7 +6061,7 @@ display: flex;
 
   #respond input[type="text"], #respond input[type="email"], #respond input[type="url"] {
     width: 100%;
-  }
+	}
 
   #mu-error .mu-error-area {
     padding: 30px 20px 60px;
