@@ -3,15 +3,15 @@
     Replace the HEX Code with your Desired Color HEX
 -----------------------------------------------------------------*/
 ::selection {
-  background: #c59d5f;
+  background: #ab9370;
   color: #ffffff;
 }
 ::-moz-selection {
-  background: #c59d5f;
+  background: #ab9370;
   color: #ffffff;
 }
 ::-webkit-selection {
-  background: #c59d5f;
+  background: #ab9370;
   color: #ffffff;
 }
 .white {

@@ -1,24 +1,24 @@
 /* Color Theme 
 -----------------------------------------------------------------*/
 ::selection {
-  background: #c59d5f;
+  background: #ab9370;
 }
 ::-moz-selection {
-  background: #c59d5f;
+  background: #ab9370;
 }
 ::-webkit-selection {
-  background: #c59d5f;
+  background: #ab9370;
 }
 .btn-dark {
   color: #ffffff;
-  background-color: #c59d5f;
-  border-color: #c59d5f;
+  background-color: #ab9370;
+  border-color: #ab9370;
 }
 .btn-dark,
 .btn-gold,
 .primary-bg,
 .btn-gold:hover {
-  border-color: #c59d5f;
+  border-color: #ab9370;
 }
 .btn-dark:hover,
 .btn-dark:focus,
@@ -69,8 +69,8 @@
 #accordion_majesty a:hover.panel-link,
 .menu_tabs div.tab-menu div.list-group > a.active,
 .color-bg {
-  background-color: #c59d5f;
-  background: #c59d5f;
+  background-color: #ab9370;
+  background: #ab9370;
 }
 .blockquote:before,
 a.comment-reply-link:hover i,
@@ -138,7 +138,7 @@ table.table-cart tr td a,
 .dark a:hover,
 .dark button:hover,
 .footer_logo a {
-  color: #c59d5f;
+  color: #ab9370;
 }
 .pagination-gold > li > a:hover,
 .pagination-gold > li > span:hover,
@@ -151,13 +151,13 @@ table.table-cart tr td a,
 .btn.btn-black:hover,
 .countdown-section,
 .date-block-dark .date-blocks .block-item {
-  border-color: #c59d5f;
+  border-color: #ab9370;
 }
 #main-menu.dark ul ul,
 #main-menu.dark ul li .mega-menu-content,
 #main-menu ul ul,
 #main-menu ul li .mega-menu-content {
-  border-top-color: #c59d5f;
+  border-top-color: #ab9370;
 }
 .blog_single .post-meta a span:hover {
   color: #ffffff;
