@@ -87,16 +87,19 @@
 	content: "\e600"
 }
 #main-menu ul ul a, .btn-black, .btn-gold, .btn-white, .btn.btn-black, .font3, .skipper-slider .slider-content p, .slider-content p, .slider-parallax .slider-content p, .video-content p, .welcome-block p, body p {
-	font-family: CenturyGothic;
+	font-family: CenturyGothic !important;
 }
 #accordion_majesty .panel-default a.panel-link, #logo, #main-menu ul li .mega-menu-content.style-dropdown>ul>li.mega-menu-title>a, #main-menu ul li a, #main-menu.dark ul li .mega-menu-content.style-dropdown>ul>li.mega-menu-title:hover>a, #main-menu.dark ul li .mega-menu-content.style-dropdown>ul>li.mega-menu-title>a, #menu-fillter a, #menu-scroll li, #menu_carousel .item h2, #shop_cart .shop_checkout_price, .blog figure p, .countdown-section, .dark #main-menu:not(.not-dark) ul li .mega-menu-content.style-dropdown>ul>li.mega-menu-title:hover>a, .dark #main-menu:not(.not-dark) ul li .mega-menu-content.style-dropdown>ul>li.mega-menu-title>a, .fc th, .font1, .latest_news figure p, .majesty_pagination>li>a, .majesty_pagination>li>span, .majesty_tab .nav-tabs>li>a, .masonary_blog figure p, .menu_tabs div.tab-menu div.list-group>a, .pagination-gold>li>a, .pagination-gold>li>span, .price_head, .slider-content h1, .the-comment .fn.n, .vertical-menu ul a, .video-content h1, h1, h2, h3, h4, h5, h6, table.table-cart tr th {
-	font-family: GeoSansLight
+	font-family: GeoSansLight !important;
 }
 .banner .banner-content p, .blockquote article, .blockquote p, .blog figure p, .blog_single .blockquote p, .font2, .interactive-bg .wrapper-bg p, .latest_news figure p, .masonary_blog figure p, .menu_today figure p, .swiper-wrapper .slider-content h4, .swiper-wrapper .slider-content p, .video b, .yt-bg-player .slider-content p, span.welcome {
-	font-family: CenturyGothic;
+	font-family: CenturyGothic !important;
 }
 .font4, .signature {
-	font-family: 'Herr Von Muellerhoff', cursive
+	font-family: 'Herr Von Muellerhoff', cursive !important;
+}
+.dimmi-widget h2 {
+	color: white;
 }
 body {
 	color: #515151
@@ -1341,7 +1344,8 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 .slider-content p, .video-content p {
 	font-size: 18px;
 	margin: 0 0 30px;
-	letter-spacing: 5px
+	letter-spacing: 5px;
+	font-family: CenturyGothic;
 }
 #slider {
 	position: relative;
