@@ -6,28 +6,52 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.roshni.com.au/</loc>
-  <lastmod>2017-06-30T00:51:44+00:00</lastmod>
+  <loc>https://www.roshni.com.au/</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.roshni.com.au/index.html</loc>
-  <lastmod>2017-06-30T00:51:44+00:00</lastmod>
+  <loc>https://www.roshni.com.au/index.html</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.roshni.com.au/about.html</loc>
-  <lastmod>2017-06-30T00:51:43+00:00</lastmod>
+  <loc>https://www.roshni.com.au/about.html</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.roshni.com.au/awards.html</loc>
-  <lastmod>2017-06-30T00:51:43+00:00</lastmod>
+  <loc>https://www.roshni.com.au/find-us.html</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.roshni.com.au/news.html</loc>
-  <lastmod>2017-06-30T00:51:44+00:00</lastmod>
+  <loc>https://www.roshni.com.au/order-online.html</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.roshni.com.au/testimonials.html</loc>
-  <lastmod>2017-06-30T00:51:44+00:00</lastmod>
+  <loc>https://www.roshni.com.au/book-a-table.html</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.roshni.com.au/pdfs/menu.pdf</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.roshni.com.au/pdfs/takeaway.pdf</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.roshni.com.au/pdfs/drinks.pdf</loc>
+  <lastmod>2020-10-18T03:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
