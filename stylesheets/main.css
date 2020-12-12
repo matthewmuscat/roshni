@@ -578,8 +578,17 @@ input:focus, textarea:focus {
 .error-bg {
 	background-image: url(../img/background/404.jpg)
 }
+.background-book-a-table {
+	background-image: url(../img/new/6.jpg);
+	background-position: 50% 0rem !important;	
+}
+.background-find-us {
+	background-image: url(../img/new/1.jpg);
+	background-position: 50% -20rem !important;	
+}
 .background1 {
-	background-image: url(../img/banner/about.jpg)
+	background-image: url(../img/new/4.jpg);
+	background-position: 50% -20rem !important;
 }
 .background2 {
 	background-image: url(../img/banner/blog.jpg)
@@ -2569,8 +2578,11 @@ span.welcome:after {
 }
 .chef-message img, .chef-style-2 img {
 	position: absolute;
-	bottom: -100px;
+	padding: 0 15px;
 	right: 0;
+	-webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 	top: auto
 }
 .chef-message p, .chef-style-2 p {
@@ -5807,7 +5819,15 @@ display: flex;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 14px;
-  }
+	}
+
+	.background1 {
+		background-position: 50% 0rem !important;
+	}
+
+	.background-find-us {
+		background-position: 50% 0rem !important;
+	}
 
   .mu-main-navbar .navbar-header .navbar-brand {
     height: 30px;
