@@ -1801,10 +1801,8 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 	position: relative
 }
 .video-wrap video {
-	/* width: 100%!important;
-	height: 100% !important; */
-	/* width: 1403.03px !important; */
-	height: 100vh !important;
+	width: 100%! important;
+	height: auto! important;
 }
 
 .video-placeholder {
@@ -5831,6 +5829,11 @@ display: flex;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 14px;
+	}
+
+	.video-wrap video {
+		width: 100%! important;
+		height: auto! important;
 	}
 
 	.background1 {
