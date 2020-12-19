@@ -755,7 +755,6 @@ var MAJESTY = MAJESTY || {};
             MAJESTY.widget.scrollDown();
             MAJESTY.widget.extras();
             MAJESTY.widget.forResizeAndLoad();
-            MAJESTY.widget.html5Video();
             MAJESTY.widget.vimeoBgVideo();
             MAJESTY.widget.youtubeBgVideo();
             MAJESTY.widget.carouselImage();
