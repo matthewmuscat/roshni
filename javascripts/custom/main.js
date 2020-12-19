@@ -842,38 +842,6 @@ var MAJESTY = MAJESTY || {};
 
         },
 
-        html5Video: function(){
-            var videoEl = $('.video-wrap:has(video)');
-            if( videoEl.length > 0 ) {
-                videoEl.each(function(){
-                    var element = $(this),
-                        elementVideo = element.find('video'),
-                        outerContainerWidth = element.outerWidth(),
-                        outerContainerHeight = element.outerHeight(),
-                        innerVideoWidth = elementVideo.outerWidth(),
-                        innerVideoHeight = elementVideo.outerHeight();
-
-                    if( innerVideoHeight < outerContainerHeight ) {
-                        var videoAspectRatio = innerVideoWidth/innerVideoHeight,
-                            newVideoWidth = outerContainerHeight * videoAspectRatio,
-                            innerVideoPosition = (newVideoWidth - outerContainerWidth) / 2;
-                        elementVideo.css({ 'width': newVideoWidth+'px', 'height': outerContainerHeight+'px', 'left': -innerVideoPosition+'px' });
-                    } else {
-                        var innerVideoPosition = (innerVideoHeight - outerContainerHeight) / 2;
-                        elementVideo.css({ 'width': innerVideoWidth+'px', 'height': innerVideoHeight+'px', 'top': -innerVideoPosition+'px' });
-                    }
-
-                    if( MAJESTY.isMobile.any() ) {
-                        var placeholderImg = elementVideo.attr('poster');
-
-                        if( placeholderImg != '' ) {
-                            element.append('<div class="video-placeholder" style="background-image: url('+ placeholderImg +');"></div>')
-                        }
-                    }
-                });
-            }
-        },
-
         vimeoBgVideo:function(){
              if( !MAJESTY.isMobile.any() ){
                $("#vimeo").okvideo({ source: '23851992',

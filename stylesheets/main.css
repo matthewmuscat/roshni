@@ -102,7 +102,11 @@
 	color: white;
 }
 body {
-	color: #515151
+	color: #515151;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
 }
 body p {
 	font-size: 15px;
@@ -1563,7 +1567,7 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 .swiper_wrapper .swiper-slide [data-caption-animate] {
 	-webkit-backface-visibility: hidden
 }
-.section .video-wrap, .section .yt-bg-player, .swiper-slide .video-wrap, .swiper-slide .yt-bg-player {
+.section, .section .yt-bg-player, .swiper-slide, .swiper-slide .yt-bg-player {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -1794,15 +1798,26 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 	font-style: italic;
 	font-size: 16px
 }
+
 .video-wrap {
 	overflow: hidden;
+	position: relative;
 	width: 100%;
 	height: 100%;
-	position: relative
 }
-.video-wrap video {
-	/* width: 100%! important;
-	height: auto! important; */
+
+#vid {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto; 
+  height: auto;
+  z-index: -1000; 
+  overflow: hidden;
 }
 
 .video-placeholder {
@@ -5829,11 +5844,6 @@ display: flex;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 14px;
-	}
-
-	.video-wrap video {
-		/* width: 100%! important;
-		height: auto! important; */
 	}
 
 	.background1 {
