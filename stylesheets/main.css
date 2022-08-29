@@ -98,9 +98,6 @@
 .font4, .signature {
 	font-family: 'Herr Von Muellerhoff', cursive !important;
 }
-.dimmi-widget h2 {
-	color: white;
-}
 body {
 	color: #515151;
 	overflow-y: scroll;
