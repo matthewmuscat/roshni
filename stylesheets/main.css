@@ -589,16 +589,16 @@ input:focus, textarea:focus {
 	background-image: url(../img/background/404.jpg)
 }
 .background-book-a-table {
-	background-image: url(../img/new-march/4.jpeg);
-	background-position: 30% 0rem !important;
+	background-image: url(../img/new-march/booktable.jpeg);
+	background-position: 30% -10rem !important;
 }
 .background-find-us {
-	background-image: url(../img/new-march/3.jpeg);
-	background-position: 50% -20rem !important;	
+	background-image: url(../img/new-march/findus.jpeg);
+	background-position: 50% -60rem !important;	
 }
 .background1 {
-	background-image: url(../img/new-march/1.jpeg);
-	background-position: 50% 0rem !important;
+	background-image: url(../img/new-march/family.jpeg);
+	background-position: 50% -20rem !important;
 }
 .background2 {
 	background-image: url(../img/banner/blog.jpg)
