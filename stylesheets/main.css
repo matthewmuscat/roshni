@@ -1092,7 +1092,7 @@ fieldset[disabled] .btn-black:hover {
 }
 
 #header-sticky-wrapper.is-sticky #header .dark-logo img {
-	margin-top: 20px
+	margin-top: 14px
 }
 
 #header-sticky-wrapper.is-sticky .main_menu {
@@ -1507,7 +1507,7 @@ fieldset[disabled] .btn-black:hover {
 #main-menu>ul>li a.current,
 #main-menu>ul>li.current a,
 #main-menu>ul>li:hover a {
-	color: #1A371B
+	color: #AC8B4A
 }
 
 #main-menu ul li .mega-menu-content,
@@ -1719,7 +1719,7 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 #header-sticky-wrapper.is-sticky #header #main-menu>ul>li a.current,
 #header-sticky-wrapper.is-sticky #header #main-menu>ul>li.current a,
 #header-sticky-wrapper.is-sticky #header #main-menu>ul>li:hover a {
-	color: #1A371B
+	color: #AC8B4A
 }
 
 #main-menu>ul>li.mega-menu>.mega-menu-content,
@@ -2164,7 +2164,7 @@ body.stretched #header.full-header #main-menu ul li.mega-menu .mega-menu-content
 }
 
 .head_title {
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	text-align: center
 }
 
