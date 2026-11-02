@@ -6996,6 +6996,52 @@ output {
 	border-color: none
 }
 
+/* Adept Studio creator credit */
+#footer .studio-credit {
+	margin-top: 20px;
+	padding: 0 16px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	color: #595959;
+	line-height: 1.5;
+}
+
+#footer .studio-credit__link {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 0;
+	color: #0a0a0a;
+}
+
+#footer .studio-credit__mark {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 0;
+}
+
+#footer .studio-credit__name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: inherit;
+}
+
+#footer .studio-credit__link:hover {
+	color: #1a371b;
+	text-decoration: underline;
+}
+
+#footer .studio-credit__link:focus-visible {
+	outline: 2px solid #1a371b;
+	outline-offset: 4px;
+}
+
 @media (max-width:767px) {
 
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
